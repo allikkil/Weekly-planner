@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#title {
+  width: 341px;
+  height: 47px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+#wrapper {
+  display: flex;
+
+  margin-bottom: 112px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 112px;
+
+  width: 1200px;
+  height: 564px;
+  left: 137px;
+  top: 249px;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth {
+  width: 222px;
+  height: 564px;
+  left: 137px;
+  top: 249px;
+
+  border: black solid 0.5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#first,
+#second,
+#third,
+#fourth {
+  margin-right: 14px;
+}
+
+h1 {
+  width: 99px;
+  height: 63px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 59px;
+  line-height: 78px;
+}
+
+h3 {
+  width: 148px;
+  height: 41px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.task-list {
+  padding-left: 0px;
+  margin-left: 20px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+span {
+  margin-left: 20px;
+}
+
+.new-task {
+  border: none;
+  width: 50%;
+  margin-left: 25px;
+}
+
+.task {
+  position: relative;
+  align-items: center;
+  max-width: 175px;
+  margin-top: 5px;
+}
+
+.task:hover {
+  color: #807182;
+}
+
+label {
+  max-width: 20px;
+  margin-left: 25px;
+  overflow-wrap: break-word;
+
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+input[type="checkbox"] {
+  position: absolute;
+}
+input[type="checkbox"]:checked + label {
+  color: gray;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly planner</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- Title -->
+  <h1 id="title">Weekly Planner</h1>
+
+  <div id="wrapper">
+
+    <div id="first">
+      <h1 class="day">4</h1>
+      <h3 class="weekday">Monday</h3>
+      <div class="task-list-wrapper">
+        <ul class="task-list">
+        </ul>
+      </div>
+      <span>
+        <input type="checkbox" disabled="disabled">
+        <input type="text" placeholder="Add new task..." class="new-task" maxlength="40">
+      </span>
+    </div>
+
+    <div id="second">
+      <h1 class="day">5</h1>
+      <h3 class="weekday">Tuesday</h3>
+      <div class="task-list-wrapper">
+        <ul class="task-list">
+        </ul>
+      </div>
+      <span>
+        <input type="checkbox" disabled="disabled">
+        <input type="text" placeholder="Add new task..." class="new-task" maxlength="40">
+      </span>
+
+    </div>
+
+    <div id="third">
+      <h1 class="day">6</h1>
+      <h3 class="weekday">Wednesday</h3>
+      <div class="task-list-wrapper">
+        <ul class="task-list">
+        </ul>
+      </div>
+      <span>
+        <input type="checkbox" disabled="disabled">
+        <input type="text" placeholder="Add new task..." class="new-task" maxlength="40">
+      </span>
+
+    </div>
+
+    <div id="fourth">
+      <h1 class="day">7</h1>
+      <h3 class="weekday">Thursday</h3>
+      <div class="task-list-wrapper">
+        <ul class="task-list">
+        </ul>
+      </div>
+      <span>
+        <input type="checkbox" disabled="disabled">
+        <input type="text" placeholder="Add new task..." class="new-task" maxlength="40">
+      </span>
+
+    </div>
+
+    <div id="fifth">
+      <h1 class="day">8</h1>
+      <h3 class="weekday">Friday</h3>
+      <div class="task-list-wrapper">
+        <ul class="task-list">
+        </ul>
+      </div>
+      <span>
+        <input type="checkbox" disabled="disabled">
+        <input type="text" placeholder="Add new task..." class="new-task" maxlength="40">
+      </span>
+
+    </div>
+    
+  </div>
+
+  <!-- Task template -->
+  <template id="task-template">
+    <div class="task">
+      <input type="checkbox">
+      <label for=""></label>
+
+      </label>
+    </div>
+  </template>
+  <script src="main.js"></script>
+</body>
+
+</html>
